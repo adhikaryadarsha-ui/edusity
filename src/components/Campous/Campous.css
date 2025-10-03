@@ -1,0 +1,40 @@
+.campous-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.campous-img
+{
+    flex-basis: 25%;
+    padding: 20px;
+}
+.campous-img img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  
+}
+.campous
+{
+    text-align: center;
+    margin:0 auto;
+}
+.campous .btn 
+{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.campous .btn img
+{
+    width: 20px;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 767px) {
+    .campous-content
+    {
+        flex-direction: column;
+    }
+}

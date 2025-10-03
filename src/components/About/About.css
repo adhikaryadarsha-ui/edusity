@@ -1,0 +1,45 @@
+.about
+{
+    margin: 80px 0;
+}
+
+.about-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-img
+{
+    flex-basis: 40%;
+}
+.about-img img 
+{
+    width:100%;
+}
+.about-text
+{
+    flex-basis: 55%;
+}
+.about-text h2
+{
+    color:#000f38;
+    width: 80%;
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.about-text .subtitle
+{
+    margin-bottom: 20px;
+    color: #212ea0;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 767px) {
+    .about-content{
+      flex-direction: column;
+    }
+}

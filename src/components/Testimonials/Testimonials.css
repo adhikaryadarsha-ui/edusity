@@ -1,0 +1,81 @@
+.testimonials {
+  margin: 80px 0;
+  padding: 0px 20px;
+  position: relative; /* so icons can be positioned inside */
+}
+
+.next-icon, .prev-icon {
+  position: absolute;
+  background-color: blue;
+  border-radius: 50%;
+  color: #fff;          /* text/icon color */
+  width: 40px;          /* size of button */
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease; /* smooth hover effect */
+  z-index:2;
+}
+
+.prev-icon {
+  left: 10px;   /* push it to left side */
+  top: 50%;
+  transform: translateY(-50%);
+  padding:10px;
+}
+
+.next-icon {
+  right: 10px;  /* push it to right side */
+  top: 50%;
+  transform: translateY(-50%);
+   padding:10px;
+}
+
+.next-icon:hover, .prev-icon:hover {
+  background-color: darkblue; /* hover effect */
+}
+.slider
+{
+    overflow:hidden;
+}
+.slider ul
+{
+    width:200%;
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    transition:0.3s;
+}
+.slide 
+{
+    box-shadow:2px 3px 5px #0005;
+    padding:10px;
+    background-color: #fff;
+    margin:20px;
+}
+.testimonial-content
+{
+    display:flex;
+    justify-content:start;
+  align-items: center;
+   
+}
+.testimonial-content img 
+{
+    width:50px;
+    border-radius:50%;
+    border:2px solid blue;
+    margin-right:15px;
+}
+.user-name
+{
+    color:darkblue;
+    font-weight: 600;
+    font-size: 16px;
+}
+.testimonial-text
+{
+    margin-top: 15px;
+}
